@@ -1,0 +1,4 @@
+$ docker start -i lucid_clarke
+root@d25f9125b2fd:/# apt-get update
+root@d25f9125b2fd:/# apt-get -y install nano
+root@d25f9125b2fd:/# nano /usr/src/app/index.js

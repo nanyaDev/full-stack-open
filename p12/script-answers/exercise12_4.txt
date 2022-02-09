@@ -1,0 +1,6 @@
+$ docker start -i lucid_clarke
+root@d25f9125b2fd:/# apt-get update
+root@d25f9125b2fd:/# apt-get -y install curl
+root@d25f9125b2fd:/# curl -sL https://deb.nodesource.com/setup_16.x | bash
+root@d25f9125b2fd:/# apt install -y nodejs
+root@d25f9125b2fd:/# node /usr/src/app/index.js
